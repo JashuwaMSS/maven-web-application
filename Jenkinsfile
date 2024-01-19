@@ -14,8 +14,7 @@ stage('checkout the code') {
 
 steps {
 
-git credentialsId: '0f883400-249a-44dd-bb36-09e062ce0775', url: 'https://github.com/JashuwaMSS/maven-web-application.git'
-
+git branch: 'development', credentialsId: '0f883400-249a-44dd-bb36-09e062ce0775', url: 'https://github.com/JashuwaMSS/maven-web-application.git'
 }
 
 }
